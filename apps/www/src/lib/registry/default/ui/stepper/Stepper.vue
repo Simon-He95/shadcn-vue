@@ -17,6 +17,7 @@ const delegatedProps = computed(() => {
 const forwarded = useForwardPropsEmits(delegatedProps, emits)
 </script>
 
+container flex-1 items-start md:grid md:grid-cols-[220px_min-[max(0,1fr)] md:gap-6 lg:grid-cols-[240px_min-[max(0,1fr)] lg:gap-10
 <template>
   <StepperRoot
     v-slot="slotProps"

@@ -170,7 +170,7 @@ If you are interested in the detailed specification you can visit [Conventional 
 
 Multiple components are integrated into one file in `shadcn/ui` - the React version of `shadcn` - while Vue only supports one component per file, hence the name Single File Component (SFC). In such cases, you need to create separate files for each component part and then export them all in an `index.ts` file.
 
-See the [`Accordion`](https://github.com/radix-vue/shadcn-vue/tree/v0.10.2/apps/www/src/lib/registry/default/ui/accordion) source code as an example.
+See the [`Accordion`](https://github.com/unovue/shadcn-vue/tree/v0.10.2/apps/www/src/lib/registry/default/ui/accordion) source code as an example.
 
 ## Wrapping Radix-Vue Components
 
@@ -214,7 +214,7 @@ As you can see, `AccordionRootEmits` and `AccordionRootProps` types are imported
 ### CSS Classes
 There are cases when we want to accept `class` as a prop in our `shadcn/vue` component and then combine it with a default tailwind class on our `radix-vue` component via `cn` utility function.
 
-In these cases, we can not use `v-bind`, because this would lead in [double class binding](https://github.com/radix-vue/shadcn-vue/pull/241).
+In these cases, we can not use `v-bind`, because this would lead in [double class binding](https://github.com/unovue/shadcn-vue/pull/241).
 
 Take a look at `DrawerDescription.vue`.
 
@@ -352,7 +352,7 @@ Click on the following link to check if there are newer commits that we should b
 </div>
 
 1. There are no changes - If you see "There isn’t anything to compare", nothing needs to be done as we are synced with latest version.
-2. If there are changes, you should review thoese changes and try to apply them on `shadcn/vue` codebase and create a PR, remember to update the `latestSyncCommitTag` in [this file](https://github.com/radix-vue/shadcn-vue/blob/dev/apps/www/src/content/docs/contribution.md) too.
+2. If there are changes, you should review thoese changes and try to apply them on `shadcn/vue` codebase and create a PR, remember to update the `latestSyncCommitTag` in [this file](https://github.com/unovue/shadcn-vue/blob/dev/apps/www/src/content/docs/contribution.md) too.
 
 ## Debugging
 Here are some tools and techniques that can help you debug more effectively while contributing to `shadcn/vue` or developing your own projects.

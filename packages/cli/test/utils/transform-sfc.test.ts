@@ -128,7 +128,7 @@ describe('transformSFC', () => {
       `,
       config: {},
     })
-    // TODO: We need to improve this. https://github.com/radix-vue/shadcn-vue/issues/187
+    // TODO: We need to improve this. https://github.com/unovue/shadcn-vue/issues/187
     expect(result).toMatchSnapshot()
   })
 

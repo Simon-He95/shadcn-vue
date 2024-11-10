@@ -104,7 +104,7 @@ And if you're looking for a date picker input, check out the [`Date Picker`](/do
 
 ### New Component - Drawer
 
-[`Drawer`](/docs/components/drawer.html) - A drawer component for vue that is built on top of [Vaul Vue](https://github.com/radix-vue/vaul-vue).
+[`Drawer`](/docs/components/drawer.html) - A drawer component for vue that is built on top of [Vaul Vue](https://github.com/unovue/vaul-vue).
 
 <ComponentPreview name="DrawerDemo" />
 
